@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.deps.json
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.pdb
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Domain.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Domain.pdb
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internsh.BDB14EE0.Up2Date
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\refint\internshipTechnicalProject.Infrastructure.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.pdb
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\ref\internshipTechnicalProject.Infrastructure.dll

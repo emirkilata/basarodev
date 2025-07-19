@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.deps.json
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.pdb
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\refint\internshipTechnicalProject.Domain.dll
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.pdb
+C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\ref\internshipTechnicalProject.Domain.dll
