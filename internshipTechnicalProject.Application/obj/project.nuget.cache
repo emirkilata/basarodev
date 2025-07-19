@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zw/XXVv/wR0=",
+  "dgSpecHash": "iUsTqtwkfxU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
+  "projectFilePath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.7\\microsoft.entityframeworkcore.9.0.7.nupkg.sha512",

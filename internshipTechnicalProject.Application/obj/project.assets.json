@@ -3700,11 +3700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
       "projectName": "internshipTechnicalProject.Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
+      "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\obj\\",
+      "outputPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3719,11 +3719,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
             },
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj"
             }
           }
         }

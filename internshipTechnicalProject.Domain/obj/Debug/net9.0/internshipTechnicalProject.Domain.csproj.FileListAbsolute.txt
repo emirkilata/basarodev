@@ -11,3 +11,17 @@ C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9
 C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\refint\internshipTechnicalProject.Domain.dll
 C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.pdb
 C:\Users\User\Desktop\basarcode\internshipTechnicalProject.Domain\obj\Debug\net9.0\ref\internshipTechnicalProject.Domain.dll
+C:\Projects\basarodev\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.deps.json
+C:\Projects\basarodev\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.dll
+C:\Projects\basarodev\internshipTechnicalProject.Domain\bin\Debug\net9.0\internshipTechnicalProject.Domain.pdb
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.csproj.AssemblyReference.cache
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.AssemblyInfoInputs.cache
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.AssemblyInfo.cs
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.sourcelink.json
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.dll
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\refint\internshipTechnicalProject.Domain.dll
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\internshipTechnicalProject.Domain.pdb
+C:\Projects\basarodev\internshipTechnicalProject.Domain\obj\Debug\net9.0\ref\internshipTechnicalProject.Domain.dll

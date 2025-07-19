@@ -3742,11 +3742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj",
       "projectName": "internshipTechnicalProject.Domain",
-      "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj",
+      "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\obj\\",
+      "outputPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

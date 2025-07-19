@@ -3721,11 +3721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj",
+      "projectUniqueName": "C:\\Projects\\basarodev\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj",
       "projectName": "internshipTechnicalProject.Persistence",
-      "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj",
+      "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Persistence\\obj\\",
+      "outputPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3740,8 +3740,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj"
             }
           }
         }

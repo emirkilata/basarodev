@@ -3614,11 +3614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\basarcode\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Projects\\basarodev\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Projects\\basarodev\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\basarcode\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Projects\\basarodev\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3633,17 +3633,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj"
             },
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
             },
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj"
             },
-            "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\basarcode\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj"
+            "C:\\Projects\\basarodev\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj": {
+              "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Persistence\\internshipTechnicalProject.Persistence.csproj"
             }
           }
         }

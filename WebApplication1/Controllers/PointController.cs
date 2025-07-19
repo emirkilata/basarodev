@@ -1,5 +1,6 @@
 using internshipTechnicalProject.Application.PointerService;
 using internshipTechnicalProject.Application.Common;
+using internshipTechnicalProject.Domain.Point;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
@@ -18,10 +19,10 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] PointDto dto)
         {
-            var result = await _pointService.CreateAsync(dto);
+            var point = new Point { X = dto.X, Y = dto.Y };
+            var result = await _pointService.CreateAsync(point);
             return StatusCode(result.Success ? 200 : 400, result);
         }
-
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -40,7 +41,8 @@ namespace WebApplication1.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] PointDto dto)
         {
-            var result = await _pointService.UpdateAsync(id, dto);
+            var point = new Point { Id = id, X = dto.X, Y = dto.Y };
+            var result = await _pointService.UpdateAsync(point);
             return StatusCode(result.Success ? 200 : 404, result);
         }
 

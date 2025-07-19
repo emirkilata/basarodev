@@ -11,8 +11,8 @@ using internshipTechnicalProject.Infrastructure;
 namespace internshipTechnicalProject.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250718120531_AddPointTable")]
-    partial class AddPointTable
+    [Migration("20250719230701_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
