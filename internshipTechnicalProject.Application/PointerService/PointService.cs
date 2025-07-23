@@ -1,35 +1,34 @@
 using internshipTechnicalProject.Application.Common;
 using internshipTechnicalProject.Domain.Point;
-using internshipTechnicalProject.Infrastructure;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace internshipTechnicalProject.Application.PointerService
 {
     public class PointService : IPointService
     {
-        private readonly AppDbContext _context;
+        private readonly IIUnitOfWork _unitOfWork;
 
-        public PointService(AppDbContext context)
+        public PointService(IIUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<Response<Point>> CreateAsync(Point point)
         {
-            _context.Points.Add(point);
-            await _context.SaveChangesAsync();
-            return Response<Point>.SuccessResponse(point, "Point created successfully.");
+            var created = await _unitOfWork.PointRepository.AddAsync(point);
+            return Response<Point>.SuccessResponse(created, "Point created successfully.");
         }
 
         public async Task<Response<List<Point>>> GetAllAsync()
         {
-            var points = await _context.Points.ToListAsync();
+            var points = await _unitOfWork.PointRepository.GetAllAsync();
             return Response<List<Point>>.SuccessResponse(points, "All points retrieved.");
         }
 
         public async Task<Response<Point>> GetByIdAsync(int id)
         {
-            var point = await _context.Points.FindAsync(id);
+            var point = await _unitOfWork.PointRepository.GetByIdAsync(id);
             if (point == null)
                 return Response<Point>.FailResponse("Point not found.");
 
@@ -38,25 +37,19 @@ namespace internshipTechnicalProject.Application.PointerService
 
         public async Task<Response<Point>> UpdateAsync(Point updatedPoint)
         {
-            var point = await _context.Points.FindAsync(updatedPoint.Id);
+            var point = await _unitOfWork.PointRepository.UpdateAsync(updatedPoint);
             if (point == null)
                 return Response<Point>.FailResponse("Point not found.");
 
-            point.X = updatedPoint.X;
-            point.Y = updatedPoint.Y;
-
-            await _context.SaveChangesAsync();
             return Response<Point>.SuccessResponse(point, "Point updated.");
         }
 
         public async Task<Response<bool>> DeleteAsync(int id)
         {
-            var point = await _context.Points.FindAsync(id);
-            if (point == null)
+            var deleted = await _unitOfWork.PointRepository.DeleteAsync(id);
+            if (!deleted)
                 return Response<bool>.FailResponse("Point not found.");
 
-            _context.Points.Remove(point);
-            await _context.SaveChangesAsync();
             return Response<bool>.SuccessResponse(true, "Point deleted.");
         }
     }

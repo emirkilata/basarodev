@@ -15,6 +15,7 @@
           "NetTopologySuite.IO.GeoJSON": "3.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "9.0.0",
+          "internshipTechnicalProject.Application": "1.0.0",
           "internshipTechnicalProject.Domain": "1.0.0"
         },
         "runtime": {
@@ -1023,6 +1024,20 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "internshipTechnicalProject.Application/1.0.0": {
+        "dependencies": {
+          "NetTopologySuite": "2.5.0",
+          "NetTopologySuite.IO.GeoJSON": "3.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "9.0.0",
+          "internshipTechnicalProject.Domain": "1.0.0"
+        },
+        "runtime": {
+          "internshipTechnicalProject.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "internshipTechnicalProject.Domain/1.0.0": {
         "dependencies": {
           "NetTopologySuite": "2.5.0",
@@ -1631,6 +1646,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "internshipTechnicalProject.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "internshipTechnicalProject.Domain/1.0.0": {
       "type": "project",

@@ -23,10 +23,8 @@ C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\in
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Persistence.pdb
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Application.dll
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Domain.dll
-C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.dll
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Application.pdb
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Domain.pdb
-C:\Projects\basarodev\internshipTechnicalProject.Persistence\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.pdb
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\obj\Debug\net9.0\internshipTechnicalProject.Persistence.csproj.AssemblyReference.cache
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\obj\Debug\net9.0\internshipTechnicalProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\basarodev\internshipTechnicalProject.Persistence\obj\Debug\net9.0\internshipTechnicalProject.Persistence.AssemblyInfoInputs.cache

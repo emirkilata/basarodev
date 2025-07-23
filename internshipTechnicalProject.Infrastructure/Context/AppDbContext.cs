@@ -18,6 +18,7 @@ namespace internshipTechnicalProject.Infrastructure
             modelBuilder.Entity<Point>(entity =>
             {
                 entity.HasKey(p => p.Id);
+                entity.Property(p => p.Name).IsRequired();
                 entity.Property(p => p.X).IsRequired();
                 entity.Property(p => p.Y).IsRequired();
             });

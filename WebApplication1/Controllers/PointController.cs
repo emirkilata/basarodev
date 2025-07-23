@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] PointDto dto)
         {
-            var point = new Point { X = dto.X, Y = dto.Y };
+            var point = new Point { Name = dto.Name, X = dto.X, Y = dto.Y };
             var result = await _pointService.CreateAsync(point);
             return StatusCode(result.Success ? 200 : 400, result);
         }
@@ -41,7 +41,7 @@ namespace WebApplication1.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] PointDto dto)
         {
-            var point = new Point { Id = id, X = dto.X, Y = dto.Y };
+            var point = new Point { Id = id, Name = dto.Name, X = dto.X, Y = dto.Y };
             var result = await _pointService.UpdateAsync(point);
             return StatusCode(result.Success ? 200 : 404, result);
         }

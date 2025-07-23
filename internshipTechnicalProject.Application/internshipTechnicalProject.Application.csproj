@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\internshipTechnicalProject.Domain\internshipTechnicalProject.Domain.csproj" />
-    <ProjectReference Include="..\internshipTechnicalProject.Infrastructure\internshipTechnicalProject.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

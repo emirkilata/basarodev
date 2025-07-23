@@ -28,9 +28,6 @@
             "projectReferences": {
               "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
                 "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
-              },
-              "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Infrastructure\\internshipTechnicalProject.Infrastructure.csproj"
               }
             }
           }
@@ -179,6 +176,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj": {
+                "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Application\\internshipTechnicalProject.Application.csproj"
+              },
               "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj": {
                 "projectPath": "C:\\Projects\\basarodev\\internshipTechnicalProject.Domain\\internshipTechnicalProject.Domain.csproj"
               }

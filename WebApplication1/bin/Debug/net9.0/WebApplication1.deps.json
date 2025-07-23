@@ -755,8 +755,7 @@
           "NetTopologySuite": "2.5.0",
           "NetTopologySuite.IO.GeoJSON": "4.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "9.0.4",
-          "internshipTechnicalProject.Domain": "1.0.0",
-          "internshipTechnicalProject.Infrastructure": "1.0.0"
+          "internshipTechnicalProject.Domain": "1.0.0"
         },
         "runtime": {
           "internshipTechnicalProject.Application.dll": {
@@ -786,6 +785,7 @@
           "NetTopologySuite.IO.GeoJSON": "4.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "9.0.4",
+          "internshipTechnicalProject.Application": "1.0.0",
           "internshipTechnicalProject.Domain": "1.0.0"
         },
         "runtime": {

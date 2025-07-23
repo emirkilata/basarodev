@@ -33,3 +33,5 @@ C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0
 C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\ref\internshipTechnicalProject.Infrastructure.dll
 C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.runtimeconfig.json
 C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\obj\Debug\net9.0\internshipTechnicalProject.Infrastructure.genruntimeconfig.cache
+C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Application.dll
+C:\Projects\basarodev\internshipTechnicalProject.Infrastructure\bin\Debug\net9.0\internshipTechnicalProject.Application.pdb

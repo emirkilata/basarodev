@@ -20,9 +20,7 @@ C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\in
 C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Application.dll
 C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Application.pdb
 C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Domain.dll
-C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.dll
 C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Domain.pdb
-C:\Projects\basarodev\internshipTechnicalProject.Application\bin\Debug\net9.0\internshipTechnicalProject.Infrastructure.pdb
 C:\Projects\basarodev\internshipTechnicalProject.Application\obj\Debug\net9.0\internshipTechnicalProject.Application.csproj.AssemblyReference.cache
 C:\Projects\basarodev\internshipTechnicalProject.Application\obj\Debug\net9.0\internshipTechnicalProject.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\basarodev\internshipTechnicalProject.Application\obj\Debug\net9.0\internshipTechnicalProject.Application.AssemblyInfoInputs.cache
