@@ -8,6 +8,7 @@ import L from 'leaflet';
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+import './MapViewSidebar.css';
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -23,6 +24,8 @@ export default function MapView() {
   const [pointsMap, setPointsMap] = useState({});
   const [linesMap, setLinesMap] = useState({});
   const [polygonsMap, setPolygonsMap] = useState({});
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState('points');
 
   useEffect(() => {
     // Tüm point, line ve polygonları backend'den çek
@@ -180,44 +183,90 @@ export default function MapView() {
   };
 
   return (
-    <MapContainer center={[39.92, 32.85]} zoom={6} style={{ height: "100vh", width: "100%" }}>
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <FeatureGroup>
-        {/* Kayıtlı pointleri göster */}
-        {points.map((p, i) => (
-          <Marker key={`point-${p.id}`} position={[p.y, p.x]} ref={ref => { if (ref) ref.options._dbid = p.id; }} />
-        ))}
-        {/* Kayıtlı line'ları göster */}
-        {lines.map((l, i) => {
-          let coords = [];
-          try {
-            const geo = typeof l.geometry === 'string' ? JSON.parse(l.geometry) : l.geometry;
-            const coordinates = geo.geometry.coordinates;
-            coords = coordinates.map(c => [c[1], c[0]]);
-          } catch {}
-          return <Polyline key={`line-${l.id}`} positions={coords} ref={ref => { if (ref) ref.options._dbid = l.id; }} />;
-        })}
-        {/* Kayıtlı polygonları göster */}
-        {polygons.map((poly, i) => {
-          let coords = [];
-          try {
-            const geo = typeof poly.geometry === 'string' ? JSON.parse(poly.geometry) : poly.geometry;
-            const coordinates = geo.geometry.coordinates;
-            coords = coordinates[0].map(c => [c[1], c[0]]);
-          } catch {}
-          return <Polygon key={`polygon-${poly.id}`} positions={coords} ref={ref => { if (ref) ref.options._dbid = poly.id; }} />;
-        })}
-        <EditControl
-          position="topright"
-          onCreated={onCreated}
-          onDeleted={onDeleted}
-          draw={{
-            rectangle: false,
-            circle: false,
-            circlemarker: false
-          }}
-        />
-      </FeatureGroup>
-    </MapContainer>
+    <div style={{ display: 'flex', height: '100vh', width: '100vw' }}>
+      {/* Sidebar */}
+      <div className={`sidebar${sidebarOpen ? ' open' : ''}`}>
+        <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+          {sidebarOpen ? '←' : '→'}
+        </button>
+        {sidebarOpen && (
+          <div className="sidebar-content">
+            <div className="sidebar-tabs">
+              <button className={activeTab === 'points' ? 'active' : ''} onClick={() => setActiveTab('points')}>Pointler</button>
+              <button className={activeTab === 'lines' ? 'active' : ''} onClick={() => setActiveTab('lines')}>Çizgiler</button>
+              <button className={activeTab === 'polygons' ? 'active' : ''} onClick={() => setActiveTab('polygons')}>Poligonlar</button>
+            </div>
+            <div className="sidebar-list">
+              {activeTab === 'points' && (
+                <ul>
+                  {points.length === 0 && <li>Hiç point yok.</li>}
+                  {points.map((p) => (
+                    <li key={p.id}>{p.name}</li>
+                  ))}
+                </ul>
+              )}
+              {activeTab === 'lines' && (
+                <ul>
+                  {lines.length === 0 && <li>Hiç çizgi yok.</li>}
+                  {lines.map((l) => (
+                    <li key={l.id}>{l.name}</li>
+                  ))}
+                </ul>
+              )}
+              {activeTab === 'polygons' && (
+                <ul>
+                  {polygons.length === 0 && <li>Hiç poligon yok.</li>}
+                  {polygons.map((poly) => (
+                    <li key={poly.id}>{poly.name}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+      {/* Harita */}
+      <div style={{ flex: 1 }}>
+        <MapContainer center={[39.92, 32.85]} zoom={6} style={{ height: "100vh", width: "100%" }} zoomControl={false}>
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <FeatureGroup>
+            {/* Kayıtlı pointleri göster */}
+            {points.map((p, i) => (
+              <Marker key={`point-${p.id}`} position={[p.y, p.x]} ref={ref => { if (ref) ref.options._dbid = p.id; }} />
+            ))}
+            {/* Kayıtlı line'ları göster */}
+            {lines.map((l, i) => {
+              let coords = [];
+              try {
+                const geo = typeof l.geometry === 'string' ? JSON.parse(l.geometry) : l.geometry;
+                const coordinates = geo.geometry.coordinates;
+                coords = coordinates.map(c => [c[1], c[0]]);
+              } catch {}
+              return <Polyline key={`line-${l.id}`} positions={coords} ref={ref => { if (ref) ref.options._dbid = l.id; }} />;
+            })}
+            {/* Kayıtlı polygonları göster */}
+            {polygons.map((poly, i) => {
+              let coords = [];
+              try {
+                const geo = typeof poly.geometry === 'string' ? JSON.parse(poly.geometry) : poly.geometry;
+                const coordinates = geo.geometry.coordinates;
+                coords = coordinates[0].map(c => [c[1], c[0]]);
+              } catch {}
+              return <Polygon key={`polygon-${poly.id}`} positions={coords} ref={ref => { if (ref) ref.options._dbid = poly.id; }} />;
+            })}
+            <EditControl
+              position="topright"
+              onCreated={onCreated}
+              onDeleted={onDeleted}
+              draw={{
+                rectangle: false,
+                circle: false,
+                circlemarker: false
+              }}
+            />
+          </FeatureGroup>
+        </MapContainer>
+      </div>
+    </div>
   );
 } 
