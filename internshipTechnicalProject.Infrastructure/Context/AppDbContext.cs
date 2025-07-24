@@ -1,26 +1,32 @@
 
 using internshipTechnicalProject.Domain.Point;
+using internshipTechnicalProject.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace internshipTechnicalProject.Infrastructure
+namespace internshipTechnicalProject.Infrastructure.Context
 {
-    public partial class AppDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        { 
-            
-        }
-
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<Point> Points { get; set; }
-
+        public DbSet<Line> Lines { get; set; }
+        public DbSet<Polygon> Polygons { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Point>(entity =>
+            base.OnModelCreating(modelBuilder);
+            
+            modelBuilder.Entity<Line>(entity =>
             {
-                entity.HasKey(p => p.Id);
-                entity.Property(p => p.Name).IsRequired();
-                entity.Property(p => p.X).IsRequired();
-                entity.Property(p => p.Y).IsRequired();
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired();
+                entity.Property(e => e.Geometry).IsRequired();
+            });
+            
+            modelBuilder.Entity<Polygon>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired();
+                entity.Property(e => e.Geometry).IsRequired();
             });
         }
     }
